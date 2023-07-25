@@ -1,0 +1,51 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #110120;
+}
+
+.input-field {
+    position: relative;
+    height: 50px;
+    width: 280px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-field input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0 23px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+}
+
+input::placeholder {
+    color: #b4b4b4;
+}
+
+.input-field .email-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px;
+    color: #b4b4b4;
+}
